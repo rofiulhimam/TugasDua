@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rofi'ul Himam"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:padding="35dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" Nama "
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/inputnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rofi'ul Himam"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=" Alamat "
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/inputalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Taman Bunga Sukamukti Blok G-8"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:text="Kampus"
+        android:textSize="17sp"/>
+
+    <EditText
+        android:id="@+id/inputkampus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMK Negeri 4 Bandung"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/mypicture"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/mypicture"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/mypicture"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/kembali"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="KEMBALI"/>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/next"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"/>
+
+    </LinearLayout>
+
+</LinearLayout>
